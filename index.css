@@ -5,21 +5,25 @@
 
 @font-face {
     font-family: "Roboto";
-    font-weight: bold;
+    font-weight: 700;
     src: url("assets/fonts/Robotobold.ttf");
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container {
-    width: 1440px;
+    max-width: 1440px;
+    min-width: 1440px;
+    margin: 0 auto;
 }
-
-.header {
-    padding: 10px 30px;
-}
-
 .header .container {
     display: flex;
     align-items: center;
+    padding: 10px 30px;
 }
 
 .header .logo {
@@ -95,4 +99,50 @@
 
 .header-logout a:hover {
     color: #6F2CFF;
+}
+
+.main {
+    background-color: #F6BED9;
+}
+
+.main .container {
+    padding: 135px 0 200px 115px;
+}
+
+.main-info {
+    max-width: 605px;
+}
+
+.main-pre-title {
+    color: #000;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 19px;
+}
+
+.main-title {
+    color: #000;
+    font-size: 54px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 61px;
+    max-width: 470px;
+    margin-bottom: 37px;
+}
+
+.main-title span {
+    color: #6F2DFF;
+}
+
+.main-description {
+    color: #000;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: 30px;
+    max-width: 438px;
+    margin-bottom: 4px;
+}
+
+.main-action {
+    display: flex;
 }
