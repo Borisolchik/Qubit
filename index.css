@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/fonts/Roboto.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: bold;
+    src: url("assets/fonts/Robotobold.ttf");
+}
+
 .container {
     width: 1440px;
 }
@@ -32,7 +43,14 @@
 }
 
 .header-menu ul li a {
-   text-decoration: none;
+    text-decoration: none;
+    color: #1C1C1C;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-menu ul li a:hover {
+    color: #6F2CFF;
 }
 
 .header-actions {
@@ -41,6 +59,40 @@
     margin-left: 146px;
 }
 
+
+.btn {
+    border-radius: 20px;
+    background: #6F2CFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgba(111, 44, 255, 0.9);
+}
+
 .header-button {
     margin-right: 38px;
+}
+
+.header-button .btn {
+    width: 157px;
+    height: 40px;
+    color: #FFF;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-logout a {
+    text-decoration: none;
+    color: #1C1C1C;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-logout a:hover {
+    color: #6F2CFF;
 }
