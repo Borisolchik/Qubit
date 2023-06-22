@@ -107,6 +107,7 @@
 
 .main .container {
     padding: 135px 0 200px 115px;
+    background-image: url("assets/images/bg_main.png");
 }
 
 .main-info {
@@ -145,4 +146,65 @@
 
 .main-action {
     display: flex;
+}
+
+.main-action .input {
+    border-radius: 27.5px 0 0 27.5px;
+    border: 1px solid #6F2CFF;
+    background: #FFF;
+    width: 268px;
+    height: 45px;
+    padding: 13px 26px 11px;
+}
+
+.main-action .input::placeholder {
+    color: rgba(0, 0, 0, 0.27);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-action .btn {
+    border-radius: 0 27.5px 27.5px 0;
+    width: 187px;
+    height: 45px;
+    color: #FFF;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.brands {
+    padding: 35px 0 50px;
+}
+
+.brands .container {
+    padding: 0 115px;
+}
+
+.brands-title {
+    color: #1C1C1C;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.brands-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.brands-action {
+    text-align: center;
+}
+
+.brands-action a {
+    text-decoration: none;
+    color: #1C1C1C;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid #6F2CFF;
 }
