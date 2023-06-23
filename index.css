@@ -346,3 +346,61 @@
     font-family: "Roboto", sans-serif;
     line-height: 15px;
 }
+
+.power {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 94px 0 101px;
+}
+
+.power-title {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.power-description {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 90px;
+}
+
+.power-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 76px;
+}
+
+.power-action .btn {
+    width: 189px;
+    height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin-right: 22px;
+}
+
+.power-action .btn-transparent {
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0 0 0 0 #6F2CFF;
+    width: 187px;
+    height: 40px;
+    border: none;
+    color: #6F2CFF;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.power-action .btn-transparent:hover {
+    box-shadow: 1px 1px 0 0 #6F2CFF;
+    cursor: pointer;
+}
