@@ -20,6 +20,7 @@
     min-width: 1440px;
     margin: 0 auto;
 }
+
 .header .container {
     display: flex;
     align-items: center;
@@ -295,4 +296,53 @@
     font-size: 15px;
     font-family: "Roboto", sans-serif;
     line-height: 22px;
+}
+
+.commerce .container {
+    padding: 44px 0 79px;
+    text-align: center;
+}
+
+.commerce-title {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 22px;
+}
+
+.commerce-description {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 58px;
+}
+
+.commerce-items {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 1104px;
+    max-width: 1104px;
+    margin: 0 auto;
+}
+
+.commerce-item-title {
+    color: #000;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-top: 42px;
+    margin-bottom: 16px;
+}
+
+.commerce-item-description {
+    max-width: 320px;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    line-height: 15px;
 }
