@@ -404,3 +404,50 @@
     box-shadow: 1px 1px 0 0 #6F2CFF;
     cursor: pointer;
 }
+
+.possibilities {
+    padding: 93px 0 220px;
+    text-align: center;
+}
+
+.possibilities-title {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 58px;
+}
+
+.possibilities-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.possibilities-item {
+    width: 276px;
+    height: 195px;
+}
+
+.possibilities-item-title {
+    color: #000;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 11px;
+}
+
+.possibilities-item-description {
+    color: #1C1C1C;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    line-height: 22px;
+    max-width: 276px;
+}
