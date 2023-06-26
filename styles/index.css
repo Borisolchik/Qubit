@@ -651,7 +651,6 @@
 
 .order-action input::placeholder {
     color: rgba(0, 0, 0, 0.51);
-    text-align: center;
     font-size: 15px;
     text-align: start;
     font-family: "Roboto", sans-serif;
