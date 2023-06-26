@@ -619,3 +619,51 @@
     font-weight: 700;
     margin-top: 74px;
 }
+
+.order .container {
+    padding: 93px 0 107px;
+    text-align: center;
+}
+
+.order-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.order-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-action input {
+    border-radius: 27.5px 0 0 27.5px;
+    background: #FFF;
+    padding: 12px 20px;
+    border: none;
+    width: 268px;
+    height: 45px;
+}
+
+.order-action input::placeholder {
+    color: rgba(0, 0, 0, 0.51);
+    text-align: center;
+    font-size: 15px;
+    text-align: start;
+    font-family: "Roboto", sans-serif;
+}
+
+.order-action .btn {
+    border-radius: 0 27.5px 27.5px 0;
+    background: #6F2CFF;
+    width: 187px;
+    height: 45px;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
