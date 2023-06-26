@@ -491,7 +491,7 @@
     margin: 25px auto;
 }
 
-.slide-name-brands img{
+.slide-name-brands img {
     height: 35px;
 }
 
@@ -580,4 +580,42 @@
     border-bottom: 2px solid #FFF;
     width: fit-content;
     margin-top: auto;
+}
+
+.ecosystem {
+    background: #F5F5F5;
+}
+
+.ecosystem .container {
+    padding: 40px 90px 20px 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ecosystem-title {
+    color: #17002E;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 47px;
+}
+
+.ecosystem-description {
+    color: #000;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    line-height: 30px;
+    max-width: 588px;
+    margin-bottom: 11px;
+}
+
+.ecosystem-action .btn {
+    width: 203px;
+    height: 40px;
+    color: #FFF;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-top: 74px;
 }
