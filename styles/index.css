@@ -451,3 +451,57 @@
     line-height: 22px;
     max-width: 276px;
 }
+
+.leading-brands {
+    background-color: #F5F5F5;
+    padding: 88px 0 100px;
+}
+
+.leading-brands-title {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 71px;
+}
+
+.leading-brands-slider {
+    margin: 0 auto;
+}
+
+.slide {
+    width: 320px;
+    height: 438px;
+    border-radius: 7px 7px 7px 7px;
+    background: #FFF;
+    box-shadow: 0 2px 4px 0 rgba(192, 192, 192, 0.50);
+
+}
+
+.slide-image {
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    height: 205px;
+    border-radius: 7px 7px 0 0;
+}
+
+.slide-name-brands {
+    margin: 25px auto;
+}
+
+.slide-name-brands img{
+    height: 35px;
+}
+
+.slide-description {
+    max-width: 219px;
+    margin: 0 auto;
+    color: #6F2CFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+}
