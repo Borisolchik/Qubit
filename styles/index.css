@@ -690,3 +690,91 @@
 .contact-item {
     text-decoration: none;
 }
+
+.footer {
+    background: #20003C;
+}
+
+.footer .container {
+    padding: 57px 128px 82px 110px;
+}
+
+.footer-header {
+    display: flex;
+}
+
+.footer-header-item {
+    color: #FFF;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer-1 {
+    width: 164px;
+    margin-right: 33px;
+}
+
+.footer-2 {
+    width: 165px;
+    margin-right: 28px;
+}
+
+.footer-3 {
+    width: 169px;
+    margin-right: 23px;
+}
+
+.footer-4 {
+    width: 82px;
+    margin-right: 110px;
+}
+
+.footer-5 {
+    width: 78px;
+    margin-right: 116px;
+}
+
+.footer-6 {
+    width: 125px;
+    margin-right: 68px;
+}
+
+.footer-main {
+    display: flex;
+}
+
+.footer-main-item-menu {
+    margin-bottom: 11px;
+}
+
+.footer-main-item-menu a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-footer {
+    margin-top: 45px;
+}
+
+.footer-logo {
+    margin: 0 auto 24px;
+    text-align: center;
+}
+
+.footer-description {
+    display: flex;
+    align-items: center;
+    width: 712px;
+    justify-content: space-between;
+}
+
+.footer-description-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
