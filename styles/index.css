@@ -666,3 +666,27 @@
     font-size: 15px;
     font-family: "Roboto", sans-serif;
 }
+
+.contact {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.contact-description {
+    color: #1C1C1C;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    margin: 29px 0 27px;
+}
+
+.contact-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-item {
+    text-decoration: none;
+}
